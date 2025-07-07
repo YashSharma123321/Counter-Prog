@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+#count {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+button {
+  margin: 0.5rem;
+  /* background-color: red; */
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+
+.container {
+  transition: background-color 0.3s ease;
+}
